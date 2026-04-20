@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+__MACOSX/
+UCI HAR Dataset/
+generated_samples/
+random_test_samples/
+*.zip
+*.npy
+*.csv
+*.h5
