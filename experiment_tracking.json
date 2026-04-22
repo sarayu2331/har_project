@@ -33,5 +33,33 @@
             "model_file": "best_lstm_model.h5",
             "scaler_file": "scaler.joblib"
         }
+    },
+    {
+        "run_id": "20260422_221405",
+        "timestamp": "2026-04-22 22:14:05",
+        "metadata": {
+            "model_type": "LSTM",
+            "dataset": "UCI HAR",
+            "framework": "TensorFlow/Keras"
+        },
+        "hyperparameters": {
+            "lstm_units": 128,
+            "dropout": 0.3,
+            "dense_units": 64,
+            "optimizer": "adam",
+            "batch_size": 32,
+            "epochs_actual": 8
+        },
+        "metrics": {
+            "test_accuracy": 0.9328130483627319,
+            "test_loss": 0.20419475436210632,
+            "macro_f1": 0.9326469828305237,
+            "weighted_precision": 0.9343485046305784,
+            "weighted_recall": 0.9328130302002036
+        },
+        "artifacts": {
+            "model_file": "best_lstm_model.h5",
+            "scaler_file": "scaler.joblib"
+        }
     }
 ]
